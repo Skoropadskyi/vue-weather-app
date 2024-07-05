@@ -1,11 +1,27 @@
 <template>
-  <div></div>
+  <header>
+    <a href="#" class="logo">Weather</a>
+  </header>
 </template>
 
 <script>
 export default {
-  name: "Navigation",
+  name: "HeaderSite",
 };
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+header {
+  overflow: hidden;
+  background: #000038;
+  padding: 20px 10px;
+
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px;
+  }
+}
+</style>
