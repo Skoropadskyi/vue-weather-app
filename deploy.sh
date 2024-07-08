@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:Skoropadskyi/weather-app.git master:gh-pages
+git push -f git@github.com:Skoropadskyi/vue-weather-app.git master:gh-pages
 
 cd -
